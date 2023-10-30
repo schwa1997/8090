@@ -25,7 +25,7 @@ const images = [
 
 const SwiperComponent = () => {
   return (
-    <div className="w-2/3 mx-auto"> {/* Set width to 2/3 of the screen width and center */}
+    <div className="lg:w-2/3 w-screen mx-auto"> {/* Set width to 2/3 of the screen width and center */}
     <Swiper
       pagination={{ clickable: true }}
       autoplay={{

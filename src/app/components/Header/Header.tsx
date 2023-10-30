@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Header: FC = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-between pt-5">
+      <div className="flex flex-col items-center justify-between p-5">
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
           <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none lg:pr-6">
             <a
@@ -25,7 +25,7 @@ export const Header: FC = () => {
               />
             </a>
           </div>
-          <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+          <div className="mb-2 grid lg:grid-flow-row grid-flow-col grid-cols-4 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
             <a
               href="/weddingSet"
               className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-blue-100 hover:dark:border-neutral-700 hover:dark:bg-blue-100/50"
@@ -90,7 +90,7 @@ export const Header: FC = () => {
                 </span>
               </h2>
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                添加微信：italy8090
+                添加微信italy8090
               </p>
             </a>
           </div>
